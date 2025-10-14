@@ -1,2 +1,32 @@
 export enum TechnologyEnum {
+  JAVA = 'JAVA',
+  C_SHARP = 'C_SHARP',
+  ANGULAR = 'ANGULAR',
+  ANGULAR_JS = 'ANGULAR_JS',
+  JAVASCRIPT = 'JAVASCRIPT',
+  TYPESCRIPT = 'TYPESCRIPT',
+  DOCKER = 'DOCKER',
+  KUBERNETES = 'KUBERNETES',
+  PYTHON = 'PYTHON',
+  HTML = 'HTML',
+  SCSS = 'SCSS',
+  SASS = 'SASS',
+  CSS = 'CSS',
+  RXJS = 'RXJS',
+  SPRING_BOOT = 'SPRING_BOOT',
+  SPRING_DATA = 'SPRING_DATA',
+  KAFKA = 'KAFKA',
+  SQL = 'SQL',
+  POSTGRESQL = 'POSTGRESQL',
+  MYSQL = 'MYSQL',
+  ORACLE = 'ORACLE', 
+
+//  tech I don't know
+  AWS = 'AWS',
+  AZURE = 'AZURE',
+  PHP = 'PHP',
+  GOLANG = 'GOLANG',
+  REACT = 'REACT',
+  NODE_JS = 'NODE_JS',
+  TERRAFORM = 'TERRAFORM'
 }
