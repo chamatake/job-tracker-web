@@ -1,4 +1,4 @@
-export enum InterviewTypeEnum {
+export enum InterviewType {
   INITIAL_SCREEN = 'INITIAL_SCREEN',
   CODING_ASSESSMENT = 'CODING_ASSESSMENT',
   FIRST_INTERVIEW = 'FIRST_INTERVIEW',

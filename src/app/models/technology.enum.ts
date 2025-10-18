@@ -1,4 +1,4 @@
-export enum TechnologyEnum {
+export enum Technology {
   JAVA = 'JAVA',
   C_SHARP = 'C_SHARP',
   ANGULAR = 'ANGULAR',
@@ -19,7 +19,7 @@ export enum TechnologyEnum {
   SQL = 'SQL',
   POSTGRESQL = 'POSTGRESQL',
   MYSQL = 'MYSQL',
-  ORACLE = 'ORACLE', 
+  ORACLE = 'ORACLE',
 
 //  tech I don't know
   AWS = 'AWS',

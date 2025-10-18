@@ -1,4 +1,4 @@
-export enum ApplicationStatusTypeEnum {
+export enum ApplicationStatusType {
   APPLIED = 'APPLIED',
   SCREENING = 'SCREENING',
   CODE_ASSESSMENT = 'CODE_ASSESSMENT',
