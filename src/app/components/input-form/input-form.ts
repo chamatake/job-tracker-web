@@ -4,7 +4,7 @@ import { Component } from '@angular/core';
   selector: 'app-input-form',
   imports: [],
   templateUrl: './input-form.html',
-  styleUrl: './input-form.css'
+  styleUrl: './input-form.scss'
 })
 export class InputForm {
 

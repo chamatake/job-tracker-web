@@ -4,7 +4,7 @@ import { Component } from '@angular/core';
   selector: 'app-referral-source',
   imports: [],
   templateUrl: './referral-source.html',
-  styleUrl: './referral-source.css'
+  styleUrl: './referral-source.scss'
 })
 export class ReferralSource {
 

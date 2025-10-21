@@ -1,13 +1,14 @@
-import { HttpClient, HttpParams } from '@angular/common/http';
-import { inject, Injectable } from '@angular/core';
+import { HttpParams } from '@angular/common/http';
+import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 import { Company } from '../models/company.model';
+import { ApiBaseService } from './api-base.service';
+import { KeyValuePair } from '../core/key-value-pair';
 
 @Injectable({
   providedIn: 'root'
 })
-export class CompanyService {
-  private http = inject(HttpClient);
+export class CompanyService extends ApiBaseService{
   private baseUrl: string = '/api/companies';
 
   public create(request: Partial<Company>): Observable<Company> {
@@ -19,8 +20,9 @@ export class CompanyService {
   }
 
   public findByCompanyName(name: string): Observable<Company> {
-    let params = new HttpParams();
-    params.set('companyName', name);
+    let params: HttpParams = this.withUrlParams([
+      new KeyValuePair<string, string>('companyName', name)
+    ]);
 
     return this.http.get<Company>(this.baseUrl, { params });
   }

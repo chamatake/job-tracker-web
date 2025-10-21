@@ -1,0 +1,8 @@
+<div>
+  @if (companies().length) {
+    <span>{{ companies() | json }}</span>
+  }
+  @else {
+    <p>No companies found.</p>
+  }
+</div>

@@ -4,7 +4,7 @@ import { Component } from '@angular/core';
   selector: 'app-application-status',
   imports: [],
   templateUrl: './application-status.html',
-  styleUrl: './application-status.css'
+  styleUrl: './application-status.scss'
 })
 export class ApplicationStatus {
 
