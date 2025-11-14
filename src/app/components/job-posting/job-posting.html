@@ -1,0 +1,9 @@
+<div>
+  <h2>This is for Job Postings</h2>
+  @if (postings().length) {
+    <span>{{ postings() | json }}</span>
+  }
+  @else {
+    <p>No job postings found.</p>
+  }
+</div>

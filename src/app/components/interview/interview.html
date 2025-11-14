@@ -1,0 +1,9 @@
+<div>
+  <h2>This is for Interviews</h2>
+  @if (interviews().length) {
+    <span>{{ interviews() | json }}</span>
+  }
+  @else {
+    <p>No interviews found.</p>
+  }
+</div>

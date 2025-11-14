@@ -22,7 +22,6 @@ export class CompanyComponent implements OnInit {
   }
 
   load(): void {
-    console.log('trying to load some stuff here');
     this.loading.set(true);
     this.error.set(null);
 
